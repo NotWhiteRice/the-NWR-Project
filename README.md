@@ -25,7 +25,7 @@
   - [ ] Implementing strings
   - [ ] Making specifying the datatype of a variable optional and automatic
   - [ ] Implementing a print function
-  - [X] Implementing comments
+  - [ ] Implementing comments
   - [ ] Implementing conditional statements
   - [ ] Implementing if statements
   - [ ] Implementing switch statements
@@ -35,12 +35,15 @@
   - [ ] Implementing for loops
   - [ ] Implementing for each loops
   - [ ] Implementing classes
+  - [ ] Implementing locality
+  - [ ] Implementing scopes
   - [ ] Implementing interfaces
   - [ ] Implementing enums
   - [ ] Implementing static variables
   - [ ] Implementing objects
   - [ ] Implementing inheritance
   - [ ] Implementing polymorphism
+  - [ ] Implementing multiple inheritance
   - [ ] Implementing lambda functions
   - [ ] Implementing macros
   - [ ] Implementing annotations

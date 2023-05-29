@@ -4,9 +4,9 @@ using namespace nwr;
 
 Parser p;
 
-int main() {
+int main(int argc, char* argv[]) {
 
-    p.parse("../neo/test.nwr");
+    p.parse("../../neo/test.nwr");
 
     return 0;
 }

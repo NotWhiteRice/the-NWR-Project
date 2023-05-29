@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "iosfwd": "cpp",
+        "xstring": "cpp",
+        "xutility": "cpp",
+        "system_error": "cpp",
+        "type_traits": "cpp",
+        "xtr1common": "cpp",
+        "exception": "cpp",
+        "fstream": "cpp",
+        "memory": "cpp",
+        "tuple": "cpp",
+        "utility": "cpp",
+        "ostream": "cpp",
+        "string": "cpp",
+        "xiosbase": "cpp"
+    }
+}
