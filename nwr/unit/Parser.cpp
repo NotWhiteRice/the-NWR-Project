@@ -13,6 +13,7 @@ void Parser::parse(const char* fileDir) {
         Token* token = Token::initToken("", Token::t_UNKNOWN);
         while(token->type != Token::t_EOF) {
             token = lexer->nextToken();
+            if(token->type == Token::t_UNKNOWN) throw "nwr::Parser parse(fileDir)\\ Unknown character.";
             if(token != nullptr) cout << "id: " << token->type << ", value: " << (token->value) << endl;
         }
         lexer->unit.close();
