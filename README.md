@@ -1,5 +1,5 @@
 # the-NWR-Project
-> An open source game engine/editor with its own programming language.
+> An open source game engine/editor with its own programming language inspired by C++.
 
 ## Introduction
 > the NWR Project is only being created on by me, Tristan Sunico.
