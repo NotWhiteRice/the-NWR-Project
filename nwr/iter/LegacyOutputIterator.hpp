@@ -1,29 +1,25 @@
 #pragma once
 
-namespace nwr{
+#include "LegacyIterator.hpp"
 
-    /// @brief An enforced, using a proxy object, write-only left to right iterator
-    /// @tparam T The datatype this iterator works on
+namespace nwr{
     template<typename T>
-    class LegacyOutputIterator : virtual public LegacyIterator<T> {
+    class LegacyOutputIterator : public LegacyIterator<T> {
     private:
         struct LegacyOutputProxy {
             T*& pointer;
-            LegacyOutputProxy(T*& ptr) : pointer(ptr) {}
+            LegacyOutputProxy(T*& ptr);
 
-            /// @brief [write only] Accesses the current position of the iterator
-            /// @param value [in, const] The value being written
-            void operator=(const T& value) { *pointer = value; }
+            void operator=(const T& value);
         };
     public:
         using LegacyIterator<T>::ptr;
 
-        LegacyOutputIterator(T *pointer) : LegacyIterator<T>(pointer) {}
-        LegacyOutputIterator(const LegacyOutputIterator& iter) : LegacyIterator<T>(iter.ptr) {}
-        LegacyOutputIterator& operator=(LegacyOutputIterator& iter) { ptr = iter.ptr; return *this; }
-        ~LegacyOutputIterator() { ptr = nullptr; }
+        LegacyOutputIterator(T *pointer);
+        LegacyOutputIterator(const LegacyOutputIterator<T>& iter);
+        LegacyOutputIterator<T>& operator=(const LegacyOutputIterator<T>& iter);
+        ~LegacyOutputIterator();
 
-        /// @brief Returns a proxy object that can only be written to
-        virtual LegacyOutputProxy operator*() { return LegacyOutputProxy(ptr); }
+        virtual LegacyOutputProxy operator*();
     };
 }

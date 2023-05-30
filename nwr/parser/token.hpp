@@ -4,16 +4,18 @@
 
 using std::string;
 
-/// @brief Individual 'words' that the parser can use to parse a language.
-/// @note Supported languages: C++ and the programming language this project will run on.
-class Token {
-private:
-    /// @brief The value of the current token
-    string value;
-    /// @brief The type of the current token
+/// @brief the NWR Project
+namespace nwr {
+    /// @brief Individual 'words' that the parser can use to parse a language.
+    /// @note Supported languages: C++ and the programming language this project will run on.
+    class Token {
+    private:
+        /// @brief The value of the current token
+        string value;
+        /// @brief The type of the current token
     int type;
 
-public:
+    public:
     /// @brief The recognized types of tokens
     enum types {
         t_UNKNOWN,
@@ -43,4 +45,5 @@ public:
     /// @brief Returns the value of the token (e.g. "return", 1234, [, etc.)
     string is() const;
 
-} typedef Token;
+    } typedef Token;
+}

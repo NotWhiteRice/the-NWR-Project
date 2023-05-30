@@ -1,10 +1,12 @@
 #include "token.hpp"
 
-Token::Token() : value(""), type(t_UNKNOWN) {}
-Token::Token(string str, int type) : value(str), type(type) {}
+namespace nwr {
+    Token::Token() : value(""), type(t_UNKNOWN) {}
+    Token::Token(string str, int type) : value(str), type(type) {}
 
-bool Token::operator()(Token::types type) const {
-    return this->type == type;
+    bool Token::operator()(Token::types type) const {
+        return this->type == type;
+    }
+
+    string Token::is() const { return value; }
 }
-
-string Token::is() const { return value; }

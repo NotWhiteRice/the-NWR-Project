@@ -7,8 +7,9 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${workspaceFolder}\\nwr\\memory\\*.cpp",
                 "${workspaceFolder}\\nwr\\lang\\*.cpp",
+                "${workspaceFolder}\\nwr\\iter\\*.cpp",
+                "${workspaceFolder}\\nwr\\memory\\*.cpp",
                 "${workspaceFolder}\\nwr\\parser\\*.cpp",
                 "${workspaceFolder}\\nwr\\unit\\*.cpp",
                 "-o",

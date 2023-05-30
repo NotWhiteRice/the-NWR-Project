@@ -14,11 +14,6 @@
 * Visual Studio Code (Software editor)
 
 ## TODO
-- [ ] Restructuring the project
-  - [X] Folder structure
-  - [ ] Same namespace
-- [X] Documentation
-  - [ ] Better documentation
 - [X] Custom string library
   - [X] Memory management
   - [ ] Basic string manipulation
@@ -27,7 +22,6 @@
   - [ ] Compatible with iterators
   - [ ] Support for unicode
 - [X] Iterators
-  - [X] The 5 main iterators supplied by the C++ standard library.
   - [ ] Paired iterators
   - [ ] Iterates functions over a set of data and vice versa
 - [ ] C++ parser

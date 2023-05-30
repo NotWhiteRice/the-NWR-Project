@@ -1,4 +1,11 @@
 #pragma once
 
-#include "LegacyRandomAccessIterator.hpp"
 #include "LegacyOutputIterator.hpp"
+#include "LegacyRandomAccessIterator.hpp"
+
+namespace nwr {
+    template<class I>
+    class Iterator {
+
+    };
+}
