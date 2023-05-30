@@ -19,11 +19,11 @@ void Lexer::nextLine() {
     }
 }
 
-void Lexer::advance(size_t count) {
-    if(len == 0) std::cout << "[DEBUG in nwr/parser/lexer.cpp] at> advance(count) \\ Somehow went off despite the line being empty." << std::endl;
-    if(len >= count) {
-        len-=count;
-        line = line.substr(count);
+void Lexer::advance(size_t i) {
+    if(len == 0) std::cout << "[DEBUG in nwr/parser/lexer.cpp] at> advance(i) \\ Somehow went off despite the line being empty." << std::endl;
+    if(len >= i) {
+        len-=i;
+        line = line.substr(i);
     } else advance(len);
 }
 
