@@ -16,6 +16,10 @@ public:
         t_TYPE,
         t_ID,
 
+        t_DFSLASH,
+        t_COMMIN,
+        t_COMMOUT,
+
         t_LPAREN,
         t_LSQBRACE,
         t_LBRACE,
@@ -27,8 +31,12 @@ public:
         t_RDARROW,
 
         t_COLON,
+        t_SEMICOLON,
         t_COMMA,
         t_PERIOD,
+
+        t_ASTER,
+        t_AMPER,
 
         t_INT,
         t_FLOAT,

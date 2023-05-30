@@ -17,6 +17,7 @@ Lexer* Lexer::initLexer(const char* fileDir) {
 string Lexer::extractToken() {
     string val = "";
 
+    if(line.empty()) nextLine();
     line = line.substr(line.find_first_not_of(' '));
 
     char c = line.front();
@@ -68,6 +69,8 @@ c = line.front();\
             switch(c) {
                 L2C1('-', '>');
                 L2C1('=', '>');
+                L2C1('*', '/');
+                L2C2('/', '/', '*');
                 default:
                     break;
             }
@@ -85,6 +88,11 @@ Token* Lexer::nextToken() {
     if(line.empty()) nextLine();
     if(!!(*this)) val = extractToken();
     else return Token::initToken("", Token::t_EOF);
+
+    processToken("//", Token::t_DFSLASH);
+    processToken("/*", Token::t_COMMIN);
+    processToken("*/", Token::t_COMMOUT);
+
     processToken("(", Token::t_LPAREN);
     processToken("[", Token::t_LSQBRACE);
     processToken("{", Token::t_LBRACE);
@@ -96,8 +104,12 @@ Token* Lexer::nextToken() {
     processToken("=>", Token::t_RDARROW);
 
     processToken(":", Token::t_COLON);
+    processToken(";", Token::t_SEMICOLON);
     processToken(",", Token::t_COMMA);
     processToken(".", Token::t_PERIOD);
+
+    processToken("*", Token::t_ASTER);
+    processToken("&", Token::t_AMPER);
 
     processToken("return", Token::t_RETURN);
     processToken("int", Token::t_TYPE);

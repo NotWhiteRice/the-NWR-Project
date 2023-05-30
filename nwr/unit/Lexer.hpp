@@ -13,14 +13,16 @@ private:
     bool eod;
     Lexer(ifstream& file);
 
-    void nextLine();
 public:
     string line;
     ifstream& unit;
 
     bool operator!() const;
 
+    void nextLine();
+    
     static Lexer* initLexer(const char* fileDir);
     string extractToken();
     Token* nextToken();
+    
 } typedef Lexer;

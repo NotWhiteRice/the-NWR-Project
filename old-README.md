@@ -13,11 +13,11 @@
 * g++ (External compiler)
 
 ## TODO
-- [ ] Restructuring the project
-
-- [ ] Linker to C++
+- [ ] C++ Compiler
   - [X] Functional lexer and tokens
-  - [ ] Parser
+  - [ ] Abstract Syntax Tree
+  - [ ] C++ Parser
+    - [X] Comments
 
 - [ ] Full-fledged programming language
   - [ ] Implementing custom variables
@@ -31,8 +31,7 @@
   - [ ] Implementing strings
   - [ ] Making specifying the datatype of a variable optional and automatic
   - [ ] Implementing a print function
-    - [X] "technically"
-  - [X] Implementing comments
+  - [ ] Implementing comments
   - [ ] Implementing conditional statements
   - [ ] Implementing if statements
   - [ ] Implementing switch statements
