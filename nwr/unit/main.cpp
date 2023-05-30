@@ -1,12 +1,10 @@
-#include "Parser.hpp"
+#include "../parser/parsercpp.hpp"
 
-using namespace nwr;
-
-Parser p;
+Parser parser;
 
 int main(int argc, char* argv[]) {
 
-    p.parse("../../neo/test.nwr");
+    parser.parse("../parser/lexer.cpp");
 
     return 0;
 }

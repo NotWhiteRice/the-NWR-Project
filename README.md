@@ -13,13 +13,9 @@
 * g++ (External compiler)
 
 ## TODO
-- [ ] Restructuring the project
-
-- [ ] Linker to C++
+- [X] Restructuring the project
+- [ ] C++ parser
   - [X] Functional lexer and tokens
-  - [ ] Parser
-
-- [ ] Full-fledged programming language
   - [ ] Implementing custom variables
   - [ ] Implementing function declarations
   - [ ] Implementing function definitions
@@ -29,9 +25,7 @@
   - [ ] Implementing integers
   - [ ] Implementing floating point numbers
   - [ ] Implementing strings
-  - [ ] Making specifying the datatype of a variable optional and automatic
-  - [ ] Implementing a print function
-    - [X] "technically"
+  - [ ] Implementing escape sequences
   - [X] Implementing comments
   - [ ] Implementing conditional statements
   - [ ] Implementing if statements
@@ -53,7 +47,8 @@
   - [ ] Implementing multiple inheritance
   - [ ] Implementing lambda functions
   - [ ] Implementing macros
-  - [ ] Implementing annotations
+  - [ ] Implementing pointers
+  - [ ] Implementing references
   - [ ] Implementing operator overloading of custom objects
   - [ ] Implementing class-less functions
 
