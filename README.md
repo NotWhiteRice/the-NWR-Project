@@ -11,46 +11,49 @@
 ## Dependencies
 * C++ Standard library
 * g++ (External compiler)
+* Visual Studio Code (Software editor)
 
 ## TODO
-- [X] Restructuring the project
+- [ ] Restructuring the project
+  - [X] Folder structure
+  - [ ] Same namespace
+- [ ] Documentation
+- [X] Custom string library
+  - [X] Memory management
+  - [ ] Basic string manipulation
+  - [ ] Compatible with C strings
+  - [ ] Compatible with C++ strings
+  - [ ] Compatible with iterators
+  - [ ] Support for unicode
+- [X] Iterators
+  - [X] The 5 main iterators supplied by the C++ standard library.
+  - [ ] Paired iterators
+  - [ ] Iterates functions over a set of data and vice versa
 - [ ] C++ parser
+  - [X] Implementing comments
+  - [X] Implementing support for multiple lines in one line
   - [X] Functional lexer and tokens
+    - [X] Recognizes integers and floating points
+    - [ ] Recognizes strings
+    - [ ] Recognizes escape sequences
+    - [X] Recognizes ids
+    - [ ] Every token
+    - [ ] Compatible with iterators
   - [ ] Implementing custom variables
   - [ ] Implementing function declarations
   - [ ] Implementing function definitions
   - [ ] Implementing main method(s)
-  - [ ] Implementing one-line functions
-  - [ ] Implementing support for multiple lines in one line
   - [ ] Implementing integers
   - [ ] Implementing floating point numbers
   - [ ] Implementing strings
-  - [ ] Implementing escape sequences
-  - [X] Implementing comments
   - [ ] Implementing conditional statements
-  - [ ] Implementing if statements
-  - [ ] Implementing switch statements
-  - [ ] Implementing arrays
-  - [ ] Implementing while do loops
-  - [ ] Implementing do until loops
-  - [ ] Implementing for loops
-  - [ ] Implementing for each loops
+  - [ ] Implementing loops
   - [ ] Implementing classes
-  - [ ] Implementing locality
-  - [ ] Implementing scopes
-  - [ ] Implementing interfaces
-  - [ ] Implementing enums
-  - [ ] Implementing static variables
-  - [ ] Implementing objects
-  - [ ] Implementing inheritance
-  - [ ] Implementing polymorphism
-  - [ ] Implementing multiple inheritance
   - [ ] Implementing lambda functions
   - [ ] Implementing macros
   - [ ] Implementing pointers
   - [ ] Implementing references
-  - [ ] Implementing operator overloading of custom objects
-  - [ ] Implementing class-less functions
+  - [ ] Implementing operator overloading
 
 - [ ] Removing dependencies
   - [ ] Making my own compiler
