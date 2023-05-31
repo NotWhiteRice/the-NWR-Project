@@ -2,14 +2,14 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: g++.exe build active file",
+            "label": "C/C++: g++.exe build unit",
             "command": "C:\\msys64\\mingw64\\bin\\g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${workspaceFolder}\\nwr\\lang\\*.cpp",
                 "${workspaceFolder}\\nwr\\iter\\*.cpp",
                 "${workspaceFolder}\\nwr\\memory\\*.cpp",
+                "${workspaceFolder}\\nwr\\primitives\\*.cpp",
                 "${workspaceFolder}\\nwr\\parser\\*.cpp",
                 "${workspaceFolder}\\nwr\\unit\\*.cpp",
                 "-o",

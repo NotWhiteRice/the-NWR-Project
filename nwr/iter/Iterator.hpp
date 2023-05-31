@@ -6,6 +6,6 @@
 namespace nwr {
     template<class I>
     class Iterator {
-
+        
     };
 }
