@@ -1,8 +1,8 @@
 #pragma once
 
 namespace nwr {
-    class ParserCPP {
+    class ParserNWR {
     public:
         void parse(const char* dir);
-    } typedef Parser;
+    };
 }

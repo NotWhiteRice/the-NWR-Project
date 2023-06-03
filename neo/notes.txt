@@ -1,0 +1,8 @@
+ - relatively simple to use
+    - whitespace does nothing
+ - exactly what we write
+    - curly brackets defining functions
+    - array declaration -> [type]
+    - array indexing -> standard
+    - "line termination"
+ - semicolons be optional and are only to allow multiple lines in one line

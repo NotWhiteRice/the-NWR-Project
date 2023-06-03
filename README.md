@@ -14,31 +14,23 @@
 * Visual Studio Code (Software editor)
 
 ## TODO
-- [ ] Custom programming language
-  - [X] Implementing comments
-  - [X] Implementing support for multiple lines in one line
+- [ ] Language interpreters
+  - [X] Universal parser object
+  - [X] Universal lexer object
+  - [X] Customizable token objects
+  - [ ] Proper implementation
+- [ ] C++ interpreter
   - [X] Functional lexer and tokens
     - [X] Recognizes integers and floating points
     - [ ] Recognizes strings
+    - [ ] Recognizes literals
+    - [ ] Recognizes hex and binary
+    - [ ] Recognizes unicode
     - [ ] Recognizes escape sequences
-    - [X] Recognizes ids
-    - [ ] Every token
+    - [X] Recognizes variable names
     - [ ] Compatible with iterators
-  - [ ] Implementing custom variables
-  - [ ] Implementing function declarations
-  - [ ] Implementing function definitions
-  - [ ] Implementing main method(s)
-  - [ ] Implementing integers
-  - [ ] Implementing floating point numbers
-  - [ ] Implementing strings
-  - [ ] Implementing conditional statements
-  - [ ] Implementing loops
-  - [ ] Implementing classes
-  - [ ] Implementing lambda functions
-  - [ ] Implementing macros
-  - [ ] Implementing pointers
-  - [ ] Implementing references
-  - [ ] Implementing operator overloading
+    - [ ] Every token
+  - [ ] C++ parser
 
 - [ ] Removing dependencies
   - [ ] Making my own compiler
