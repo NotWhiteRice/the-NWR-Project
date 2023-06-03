@@ -8,7 +8,7 @@ namespace nwr {
         Token token = validateLexer();
         if(token.getType() == UniversalLexer::t_EOF) return token;
 
-        addToken("\%:%:", 2, t_DHASH);
+        addToken("%:%:", 4, t_DHASH);
         addToken("//", 2, t_DFSLASH);
         addToken("/*", 2, t_COMMIN);
         addToken("*/", 2, t_COMMOUT);
