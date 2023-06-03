@@ -79,7 +79,6 @@ namespace nwr {
             t_ALIGNAS,
             t_ALIGNOF,
             t_ASM,
-            t_ATTR,
             t_AUTO,
             t_BREAK,
             t_CASE,
@@ -113,6 +112,7 @@ namespace nwr {
             t_SIZEOF,
             t_SASS,
             t_SCAST,
+            t_SPECIFIER,
             t_STRUCT,
             t_SWITCH,
             t_TEMPLATE,
@@ -129,7 +129,7 @@ namespace nwr {
             t_USING,
             t_WHILE,
 
-            t_SPEC,
+            t_SPECIAL,
             t_DIR,
             t_LPRAG,
         };
