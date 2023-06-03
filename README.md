@@ -30,7 +30,7 @@
     - [X] Recognizes variable names
     - [ ] Compatible with iterators
     - [ ] Every token
-      - [ ] Quotation marks
+      - [X] All except single and double quotation marks
   - [ ] C++ parser
 
 - [ ] Removing dependencies
