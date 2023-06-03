@@ -7,11 +7,8 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${workspaceFolder}\\nwr\\iter\\*.cpp",
-                "${workspaceFolder}\\nwr\\memory\\*.cpp",
-                "${workspaceFolder}\\nwr\\primitives\\*.cpp",
-                "${workspaceFolder}\\nwr\\parser\\*.cpp",
-                "${workspaceFolder}\\nwr\\unit\\*.cpp",
+                "${workspaceFolder}\\core\\exec\\*.cpp",
+                "${workspaceFolder}\\core\\unit\\*.cpp",
                 "-o",
                 "${workspaceFolder}\\build\\the NWR Project.exe"
             ],

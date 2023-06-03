@@ -1,9 +1,4 @@
-#include "../iter/Iterator.hpp"
-
-#include "../parser/parsercpp.hpp"
-
-#include "../primitives/String.hpp"
-#include "../memory/bitmanip.hpp"
+#include "../parser/parser.hpp"
 
 using namespace nwr;
 

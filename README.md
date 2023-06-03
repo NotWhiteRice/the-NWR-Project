@@ -14,22 +14,7 @@
 * Visual Studio Code (Software editor)
 
 ## TODO
-- [ ] Utility functions
-  - [X] strlen, strcomp (nwr/primitives/String.hpp)
-  - [X] memcopy, memmove (nwr/memory/bitmanip.hpp)
-    - [X] Both > byte order: L -> R, bit order: L -> R
-    - [ ] other combinations
-- [X] Custom string library
-  - [X] Memory management
-  - [X] Support for unicode
-  - [ ] Basic string manipulation
-  - [ ] Compatible with C strings
-  - [ ] Compatible with C++ strings
-  - [ ] Compatible with iterators
-- [X] Iterators
-  - [ ] Paired iterators
-  - [ ] Iterates functions over a set of data and vice versa
-- [ ] C++ parser
+- [ ] Custom programming language
   - [X] Implementing comments
   - [X] Implementing support for multiple lines in one line
   - [X] Functional lexer and tokens
