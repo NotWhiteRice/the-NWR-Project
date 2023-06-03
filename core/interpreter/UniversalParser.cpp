@@ -16,7 +16,6 @@ using std::ifstream;
 namespace nwr {
     UniversalParser::UniversalParser() {}
 
-
     const char *UniversalParser::getFileExtension(const char *file) {
         size_t i = strlen(file), j = i;
         while(j--) if(file[j] == '.') break;
@@ -32,7 +31,7 @@ namespace nwr {
         string ext = string(temp);
         if(ext == ".nwr") {
             //ParserNWR parser;
-        } else if(ext == ".cpp" || ext == ".hpp" || ext == ".h") {
+        } else if(ext == ".cpp" || ext == ".hpp") {
             ParserCPP parser;
             parser.parse(dir.c_str());
         }
