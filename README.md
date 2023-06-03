@@ -29,7 +29,8 @@
     - [ ] Recognizes escape sequences
     - [X] Recognizes variable names
     - [ ] Compatible with iterators
-    - [X] Every token
+    - [ ] Every token
+      - [ ] Quotation marks
   - [ ] C++ parser
 
 - [ ] Removing dependencies

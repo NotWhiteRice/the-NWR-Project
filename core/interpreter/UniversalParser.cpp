@@ -31,7 +31,7 @@ namespace nwr {
         string ext = string(temp);
         if(ext == ".nwr") {
             //ParserNWR parser;
-        } else if(ext == ".cpp" || ext == ".hpp") {
+        } else if(ext == ".cpp" || ext == ".hpp" || ext == ".cc" || ext == ".cxx") {
             ParserCPP parser;
             parser.parse(dir.c_str());
         }

@@ -19,7 +19,7 @@ std::string test = "%:%:";
             if(!isComment) {
                 if(type == LexerCPP::t_DFSLASH) lexer.nextLine();
                 if(type == LexerCPP::t_UNKNOWN) cout << token.getValue() << " is not registered." << endl;
-                //cout << token.getValue() << " is " << (type == LexerCPP::t_UNKNOWN ? "not " : "") << "registered." << endl;
+                if(type == LexerCPP::t_ID) cout << token.getValue() << "is an unrecognized word." << endl;
             }
             if(type == LexerCPP::t_COMMOUT) isComment = false;
             token = lexer.nextToken();
