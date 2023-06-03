@@ -26,6 +26,9 @@ advance(size);\
 return Token(str, token);\
 }
 
+#define addKeyword(str, word)\
+if(val == str) token.type = word;
+
     public:
         UniversalLexer(const char *file);
 
