@@ -1,5 +1,6 @@
 #include "UniversalParser.hpp"
 
+#include "../Reference.hpp"
 
 #include "UniversalLexer.hpp"
 #include "../parser/cpp/parser.hpp"
@@ -26,12 +27,9 @@ namespace nwr {
     }
 
     void UniversalParser::parse(const char *file) {
-        string dir = (string("../unit/") + string(file));
-        std::cout << dir << " || " << file << std::endl;
-        ifstream unit = ifstream(dir.c_str());
         const char *temp = getFileExtension(file);
+        string dir = workspaceDir + file;
         string ext = string(temp);
-        unit.close();
         if(ext == ".nwr") {
             //ParserNWR parser;
         } else if(ext == ".cpp" || ext == ".hpp" || ext == ".h") {
