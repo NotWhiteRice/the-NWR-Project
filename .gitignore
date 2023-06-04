@@ -1,3 +1,8 @@
 
-build/the NWR Project.exe
-core/Reference.hpp
+core/Reference.h
+x64
+.vs
+the-NWR-Project.sln
+the-NWR-Project.vcxproj
+the-NWR-Project.vcxproj.filters
+the-NWR-Project.vcxproj.user

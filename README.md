@@ -10,29 +10,17 @@
 
 ## Dependencies
 * C++ Standard library
-* g++ (External compiler)
-* Visual Studio Code (Software editor)
+* Visual Studio (Software editor and compiler)
 
 ## TODO
 - [ ] Language interpreters
   - [X] Universal parser object
   - [X] Universal lexer object
   - [X] Customizable token objects
+  - [ ] File objects
   - [ ] Proper implementation
 - [ ] C++ interpreter
-  - [X] Functional lexer and tokens
-    - [X] Recognizes integers and floating points
-    - [ ] Recognizes strings
-    - [ ] Recognizes literals
-    - [ ] Recognizes hex and binary
-    - [ ] Recognizes unicode
-    - [ ] Recognizes escape sequences
-    - [X] Recognizes variable names
-    - [ ] Compatible with iterators
-    - [ ] Every token
-      - [X] All except single and double quotation marks
-  - [ ] C++ parser
-
+   
 - [ ] Removing dependencies
   - [ ] Making my own compiler
   - [ ] Making my own string library

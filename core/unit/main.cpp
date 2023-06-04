@@ -1,11 +1,11 @@
-#include "../interpreter/UniversalParser.hpp"
+#include "../exec/UniversalParser.h"
 
 using namespace nwr;
 
 Parser parser;
 
-int main(int argc, char* argv[]) {
-    parser.parse("build/modular_filesystem.cc");
+int main( ) {
+	parser.parse(1, "core/unit/main.cpp");
 
-    return 0;
+	return 0;
 }
