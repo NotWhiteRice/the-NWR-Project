@@ -4,9 +4,9 @@ import :Character;
 import nwr.memory;
 
 namespace nwr {
-/*
-Returns the length (in bytes) of a given C string
-*/
+    /*
+	Returns the length (in bytes) of a given C string
+	*/
 	export size_t strlen(const char *cstr) {
 		size_t len = 0;
 		while(cstr[len] != '\0') len++;

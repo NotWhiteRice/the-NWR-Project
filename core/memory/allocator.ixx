@@ -1,6 +1,7 @@
+#include <iostream>
+
 export module nwr.memory:allocator;
 
-#include <iostream>
 using std::cout;
 using std::endl;
 

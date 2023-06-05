@@ -8,7 +8,7 @@ namespace nwr {
 	export void memcopy(void *dest, void *src, size_t len) {
 		if(dest == nullptr) return;
 		if(src == nullptr) throw "nwr.memory memcopy(*d, *s, len): s cannot be a nullptr";
-		char *d = (char *) dest, *s = (char *) src;
+		unsigned char *d = (unsigned char *) dest, *s = (unsigned char *) src;
 		if(d < s) {
 			while(len--) {
 				*d++ = *s++;
@@ -25,7 +25,7 @@ namespace nwr {
 	*/
 	export void memmove(void *dest, void *src, size_t len, char filler = 0) {
 		if(src == nullptr) throw "nwr.memory memmove(*d, *s, len): s cannot be a nullptr";
-		char *d = (char *) dest, *s = (char *) src;
+		unsigned char *d = (unsigned char *) dest, *s = (unsigned char *) src;
 		if(dest == nullptr) {
 			while(len--) s[len] = 0;
 		} else {
@@ -46,8 +46,8 @@ namespace nwr {
 	/*
 	Sets a set amount of bytes to a given value.
 	*/
-	export void memset(void *ptr, char value, size_t len) {
-		char *p = (char *) ptr;
+	export void memset(void *ptr, unsigned char value, size_t len) {
+		unsigned char *p = (unsigned char *) ptr;
 		while(len--) p[len] = value;
 	}
 }

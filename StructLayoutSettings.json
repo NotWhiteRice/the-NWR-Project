@@ -6,7 +6,7 @@
   "AdditionalIncludeDirs": "",
   "AdditionalForceIncludes": "",
   "AdditionalCommandLine": "",
-  "EnableWarnings": false,
+  "EnableWarnings": true,
   "PDBLocation": "",
-  "ParserOutputFolder": ""
+  "ParserOutputFolder": "neo"
 }
