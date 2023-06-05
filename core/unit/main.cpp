@@ -1,11 +1,6 @@
-#include "../exec/UniversalParser.h"
 
-using namespace nwr;
-
-Parser parser;
+import nwr.memory;
 
 int main( ) {
-	parser.parse(1, "core/unit/main.cpp");
-
 	return 0;
 }

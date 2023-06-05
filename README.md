@@ -13,14 +13,22 @@
 * Visual Studio (Software editor and compiler)
 
 ## TODO
-- [ ] Language interpreters
-  - [X] Universal parser object
-  - [X] Universal lexer object
-  - [X] Customizable token objects
-  - [ ] File objects
-  - [ ] Proper implementation
-- [ ] C++ interpreter
-   
+- [X] Utility functions: memmove, memcopy, strlen, etc.
+- [ ] Custom string library
+  -   
+  - [X] Supports unicode (UTF-8 encoding)
+    - [X] UTF-8 helper functions: strcount, strnav
+    - [ ] UTF-16 support
+    - [ ] UTF-32 support
+  - [X] Memory management
+  - [X] Contiguous in memory
+  - [ ] Basic string manipulation
+  - [ ] Compatible with C strings
+  - [ ] Compatible with C++ strings
+  - [ ] Helper functions: find, rfind, contains, etc.
+  - [ ] Compatible with iterators
+
+
 - [ ] Removing dependencies
   - [ ] Making my own compiler
   - [ ] Making my own string library

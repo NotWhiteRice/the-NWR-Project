@@ -1,0 +1,7 @@
+[
+  {
+    "directory": "C:\\Users\\trist\\Desktop\\the-NWR-Project",
+    "command": "clang  -x c++ -m64 -std=c++2b -w -D_DEBUG -D_CONSOLE -working-directory=C:\\Users\\trist\\Desktop\\the-NWR-Project C:\\Users\\trist\\Desktop\\the-NWR-Project\\nwr\\primitives\\String.ixx",
+    "file": "C:\\Users\\trist\\Desktop\\the-NWR-Project\\nwr\\primitives\\String.ixx"
+  }
+]
