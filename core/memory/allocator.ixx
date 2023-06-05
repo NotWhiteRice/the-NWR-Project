@@ -48,10 +48,23 @@ namespace nwr {
 	}
 
 	export void printHeap( ) {
-		cout << "heapStack-----------------" << endl;
+		cout << "heapStack---------------------------------" << endl;
 		stackDump(&heapStack);
-		cout << "freeStack-----------------" << endl;
+		cout << "freeStack---------------------------------" << endl;
 		stackDump(&freeStack);
+		cout << "Hex representation of allocated blocks----" << endl;
+		for(size_t i = 0; i < heapStack.size; i++) {
+			cout << i << "--0x" << (void *) heapStack.stack[i].start << ": ";
+			for(size_t j = 0; j < heapStack.stack[i].size; j++) {
+				unsigned char ch = heapStack.stack[i].start[j];
+				char temp0 = ch & 0x0F;
+				temp0 += (temp0 > 9 ? 'A' - 10 : '0');
+				char temp1 = ch >> 4;
+				temp1 += (temp1 > 9 ? 'A' - 10 : '0');
+				cout << temp1 << temp0 << " ";
+			}
+			cout << endl;
+		}
 	}
 
 	void stackInsert(HeapStack *stack, void *ptr, size_t size) {
