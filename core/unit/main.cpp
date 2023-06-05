@@ -18,5 +18,10 @@ int main( ) {
 		std::cout << std::endl;
 	}
 	printHeap( );
+	std::cout << "It's just 10MB";
+
+	while(true) {
+
+	}
 	return 0;
 }
