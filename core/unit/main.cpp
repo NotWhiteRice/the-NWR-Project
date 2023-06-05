@@ -8,6 +8,7 @@ using std::endl;
 using namespace nwr;
 
 int main( ) {
+	system("chcp 65001");
 	cout << "All characters that can be put in console---" << endl;
 	cout << "   0123456789ABCDEF" << endl;
 	for(int i = 0; i < 16; i++) {
@@ -15,7 +16,7 @@ int main( ) {
 		for(int j = 0; j < 16; j++) {
 			int v = 16 * i + j;
 			if(v == 7 || v == 8 || v == 9 || v == 10 || v == 13) cout << " ";
-			else cout << (unsigned char) v;
+			else cout << Character(v);
 		}
 		cout << endl;
 	}
@@ -27,9 +28,8 @@ int main( ) {
 	cout << "0D--Carriage return" << endl;
 	cout << endl;
 
-	Character ch(0x265A);
-	cout << "0x265A--" << ch << endl;
-
+	Character ch(0x2265);
+	cout << "0x2265--" << ch << endl;
 	printHeap( );
 	while(true) { }
 	return 0;
