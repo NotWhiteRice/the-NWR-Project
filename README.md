@@ -25,7 +25,7 @@
     - [X] UTF-8 helper functions: strcount, strnav
     - [ ] UTF-16 support
     - [ ] UTF-32 support
-  - [X] Memory management
+  - [ ] Memory management
   - [X] Contiguous in memory
   - [ ] Basic string manipulation
   - [ ] Compatible with C strings
