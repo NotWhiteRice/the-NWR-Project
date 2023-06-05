@@ -13,9 +13,14 @@
 * Visual Studio (Software editor and compiler)
 
 ## TODO
+- [X] Custom memory allocator
+  - [ ] Red-black tree
+  - [ ] Arbitrary stack size
 - [X] Utility functions: memmove, memcopy, strlen, etc.
-- [ ] Custom string library
+- [ ] Unicode string library
   -   
+  - [ ] Custom character datatype
+    - [ ] Compatible with C++ characters
   - [X] Supports unicode (UTF-8 encoding)
     - [X] UTF-8 helper functions: strcount, strnav
     - [ ] UTF-16 support
@@ -36,4 +41,3 @@
   - [ ] Making my own floating point number library
   - [ ] Making my own vector/dynamic array library
   - [ ] Making my own file i/o system
-  - [ ] Making my own memory allocator
