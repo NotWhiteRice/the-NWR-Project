@@ -9,7 +9,7 @@ using namespace nwr;
 
 int main( ) {
 	system("chcp 65001");
-	cout << "All characters that can be put in console---" << endl;
+	cout << "Every character from 0x00 to 0xFF---" << endl;
 	cout << "   0123456789ABCDEF" << endl;
 	for(int i = 0; i < 16; i++) {
 		cout << (char) (i + (i > 9 ? 0x37 : 0x30)) << "X ";
