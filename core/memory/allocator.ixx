@@ -87,6 +87,7 @@ namespace nwr {
 			stack->stack[i] = stack->stack[i + 1];
 		}
 		stack->size--;
+		stack->stack[stack->size] = { .start = nullptr, .size = 0 };
 	}
 
 	export void *alloc(size_t count) {

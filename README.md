@@ -17,10 +17,10 @@
   - [ ] Red-black tree
   - [ ] Arbitrary stack size
 - [X] Utility functions: memmove, memcopy, strlen, etc.
+- [X] Custom character primitive
+  - [X] UTF-8 Encoding
+  - [ ] Fixing bugs with higher unicode values
 - [ ] Unicode string library
-  -   
-  - [ ] Custom character datatype
-    - [ ] Compatible with C++ characters
   - [X] Supports unicode (UTF-8 encoding)
     - [X] UTF-8 helper functions: strcount, strnav
     - [ ] UTF-16 support
@@ -37,7 +37,7 @@
 - [ ] Removing dependencies
   - [ ] Making my own compiler
   - [ ] Making my own string library
-  - [ ] Making my own integer library
-  - [ ] Making my own floating point number library
+  - [ ] Making my own number libraries
   - [ ] Making my own vector/dynamic array library
   - [ ] Making my own file i/o system
+  - [ ] Making my own console i/o system
