@@ -3,7 +3,7 @@
 
 ## Introduction
 > the NWR Project is only being created on by me, Tristan Sunico.
-> the NWR Project still has a long way to go, so the .exe isn't going to be public for a while.
+> the NWR Project still has a long way to go, so it won't be operational for a while.
 
 ## Installing the NWR Project
 > Step 1: Once the .exe is public, download it from the \build folder!
