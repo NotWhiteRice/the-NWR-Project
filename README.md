@@ -19,7 +19,7 @@
 - [X] Utility functions: memmove, memcopy, strlen, etc.
 - [X] Custom character primitive
   - [X] UTF-8 Encoding
-  - [ ] Fixing bugs with higher unicode values
+  - [ ] Fixing bugs with printing higher unicode values in console
 - [ ] Unicode string library
   - [X] Supports unicode (UTF-8 encoding)
     - [X] UTF-8 helper functions: strcount, strnav
